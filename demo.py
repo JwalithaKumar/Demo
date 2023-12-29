@@ -2,7 +2,7 @@ import streamlit as st
 st.set_page_config(page_title='Cats')
 st.header("Types of Cats")
 st.subheader("Persian Cat")
-st.image("./Persian.jpg", caption="Persian Cat", width=300)
+st.image("./Persian.jpg", caption="Persian Cat", width=300,use_column_width=True)
 st.subheader("Ragdoll Cat")
-st.image("./ragdoll.jpg", caption="Ragdoll Cat", width=300)
+st.image("./ragdoll.jpg", caption="Ragdoll Cat", width=300,use_column_width=True)
 
